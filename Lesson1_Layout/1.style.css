@@ -1,0 +1,17 @@
+.container {
+    background-color: #ddd;
+}
+.header {
+    height: 100px; /*由上往下增高*/
+}
+.content {
+    min-height: 500px; /*由下往上增高*/
+}
+.main-content {
+    background-color: #fff;
+    min-height: 500px;
+    border: 1px solid #eee;
+}
+.footer {
+    height: 40px;
+}

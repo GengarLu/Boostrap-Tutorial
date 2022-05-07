@@ -1,0 +1,47 @@
+Boostrap Breakpoints(斷點)
+                    Extra  
+                    small   Small   Medium  Large   X-Large XX-Large
+                    <576px	≥576px  ≥768px  ≥992px  ≥1200px ≥1400px
+.container	        100%	540px	720px	960px	1140px	1320px
+.container-sm	    100%	540px	720px	960px	1140px	1320px
+.container-md	    100%	100%	720px	960px	1140px	1320px
+.container-lg	    100%	100%	100%	960px	1140px	1320px
+.container-xl	    100%	100%	100%	100%	1140px	1320px
+.container-xxl	    100%	100%	100%	100%	100%	1320px
+.container-fluid	100%	100%	100%	100%	100%    100%
+
+
+Boostrap Containers(容器)
+    -Important and basic layout(排版) element in Boostrap
+    -There 2 types of containers
+        //fixed width.
+        //sets a max-width at each responsive breakpoint(每一個響應式斷點都會設置一個 max-width)
+        - <div class="container"></div>
+
+        //spanning the entire width of the viewport.(它將橫跨可視區域的整個寬度。)
+        //which is width: 100% at all breakpoints(所有斷點都是 width: 100%)
+        - <div class="container-fluid"></div>
+
+        //is width: 100% until the specified breakpoint(直到指定斷點之前，都會是 width: 100%)
+        - <div class="container-{breakpoint}"></div>
+
+
+Boostrap Grid(網格)
+    - Design Layout, template of the websites(網站模板)
+    - Boostrap grid allows upto 12 columns in a row(一行中最多允許放12列)
+        - 2row 2row 2row 2row 2row 2row
+        - 4 4 4
+        - 4 8
+        - 6 6
+        - 12
+        ........等組合
+    - Grid - it consists of row and columns
+    - Devide the row into 12 columns to achieve your layout design (將行分成12列為了實現你的排版設計)
+    - Bootstrap’s grid system can adapt across all six default breakpoints, and any breakpoints you customize.
+    - (Bootstrap 的網格系統預設會自動適應六個斷點以及您自定義的任何斷點，也就是依照屏幕大小分別調適6個斷點)
+        - Extra small (xs)
+        - Small (sm) - mobile/ipad
+        - Medium (md) - ipad/desktop
+        - Large (lg)
+        - Extra large (xl)
+        - Extra extra large (xxl)

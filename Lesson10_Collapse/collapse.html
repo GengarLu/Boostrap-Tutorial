@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <title>Collapse</title>
+</head>
+
+<body>
+    <!-- 
+    .collapse 隱藏內容。
+    .collapsing 會在轉換的過程中被套用。
+    .collapse.show 顯示內容。 -->
+    <p>
+        <a class="btn btn-success" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
+            aria-controls="collapseExample">
+            Link with href
+        </a>
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#hello"
+            aria-expanded="false" aria-controls="collapseExample">
+            Hello
+        </button>
+        <button class="btn btn-warning" type="button" data-bs-toggle="collapse" data-bs-target="#hi"
+            aria-expanded="false" aria-controls="collapseExample">
+            Hi
+        </button>
+        <button class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#bye"
+            aria-expanded="false" aria-controls="collapseExample">
+            Bye
+        </button>
+    </p>
+    <div class="collapse" id="collapseExample">
+        <div class="card card-body bg-success">
+            Some placeholder content for the collapse component. This panel is hidden by default but revealed when the
+            user
+            activates the relevant trigger.
+        </div>
+    </div>
+    <div class="collapse" id="hello">
+        <div class="card card-body bg-primary">
+            Hello World!
+        </div>
+    </div>
+    <div class="collapse" id="hi">
+        <div class="card card-body bg-warning">
+            Hi World!
+        </div>
+    </div>
+    <div class="collapse" id="bye">
+        <div class="card card-body bg-danger">
+            Bye World!
+        </div>
+    </div>
+
+
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.1/dist/umd/popper.min.js"
+        integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+        integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
